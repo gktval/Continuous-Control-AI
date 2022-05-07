@@ -148,7 +148,7 @@ def showScores():
 
 if __name__ == '__main__':
     # Set options to activate or deactivate the game view, and its speed 
-    #run(isTest = True, dqnType= model_types.d4pg)
+    run(isTest = True, dqnType= model_types.ddpg)
 
     #show all scores in scores folder
-    showScores()
+    #showScores()
