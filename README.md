@@ -5,6 +5,7 @@
 # Project 2: Continuous Control
 
 ![Trained Agent][image1]
+
 This repository contains material related to Udacity's Deep Reinforcement Learning course.
 
 ### Project Details
