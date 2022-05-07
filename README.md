@@ -60,7 +60,11 @@ In the initialization method of main.py, you can change the type of network to r
 The scores of the training will be stored in a folder called `scores`. Saved agents will be stored in a folder called `checkpoints`. After running several of the networks, you can replay the trained agent by changing the `isTest` variable from the initialization in main.py
 
 ### Report
-This graph shows the scores of the various trained DNQ agents used in this project. The DDQN and Dueling-DQN networks performed less well than the DQN network. Only the DQN and the DQN-noisy network reached an average targeted score of 13+ after 600 episodes. 
-The trained model weights from the DQN network are found here: /python/scores/dqn_checkpoint.pth
+This graph shows the scores of the various trained continuous control agents used in this project. 
+The results of the training will be stored in a folder called scores location in the python folder. After running several of the deep neural networks, you can replay the trained agent by changing the isTest variable passed into the run() method.
+
+Each of the algorithms described above achieved an average score of +30 over 100 episodes as listed below: DDPG - 116 episodes D4PG - 193 episodes PPO - 146 episodes
+
+The PPO algorithm achieved the results in more episodes than DDPG, but the process complete more quickly. Once PPO reach a score of +30, the distribution of rewards was much more compact than DDPG. The D4PG achieved a score of 30 the same number of episodes (35), but it took the D4PG algorithm much longer to reach the average score of 30 over 100 episodes because it plateaued and did not achieve as high of scores as DDPG or PPO.
 
 ![Pong](results.png)"Scores of trained agents and rolling averages"
