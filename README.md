@@ -22,6 +22,7 @@ This episodic task is considered solved when the average reward of the 20 agents
 
 Credit goes to https://github.com/telmo-correa/DRLND-project-2 adapting code to implement the PPO network. 
 Credit also goes to https://github.com/wpumacay/DeeprlND-projects for adapting code to implement the priority replay buffer.
+Credit to # https://github.com/PacktPublishing/Deep-Reinforcement-Learning-Hands-On/blob/master/ for implementing the distribution portion of the code in D4PG.
 
 ### Getting Started
 
